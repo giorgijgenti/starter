@@ -47,7 +47,7 @@ body
     transform:  scale(1);
 }
 h1{
-    font-size: 4rem;
+    font-size: 3.6rem;
     width: 50vw;
     line-height: 97%;
     text-align: right;
@@ -57,10 +57,10 @@ h1{
 h1, p{
     flex-basis: 0;
     flex-grow: 1;
-    clip-path: polygon(0 0, 100% 0, 100% 0, 0 0);
+    clip-path: polygon(0 0, 0 0, 0 100%, 0% 100%);
 }
 p {
-    font-size:  1.3rem;
+    font-size:  1.5rem;
     width: 40vw;
 }
 

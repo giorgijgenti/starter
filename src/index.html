@@ -8,8 +8,8 @@
 <body>
     <div class="container">
         <div class="content">
-            <h1>The Next <br> Dimension</h1> 
-            <p>Journay into the next dimension with this crazy particle effect.</p>
+            <h1>ThreeJS <br> Introduction </h1> 
+            <p> Getting started with ThreeJS, JavaScript 3D Library.</p>
         </div>
     </div>
     <canvas class="webgl"></canvas>
@@ -23,8 +23,8 @@
        const tl = gsap.timeline()
 
        tl.from(content, {delay: 0.5, duration: 4, cssRule: {scaleX: 0}})
-       tl.to(h1, { duration: 2, clipPath: 'polygon(0 0, 100% 0, 100% 100%, 0% 100%)', y: '30px' }, "-=3")
-       tl.to(p, { duration: 4, clipPath: 'polygon(0 0, 100% 0, 100% 100%, 0% 100%)', y: '30px' }, "-=2")
+       tl.to(h1, { duration: 2, clipPath: 'polygon(100% 0, 0 0, 0 100%, 100% 100%)', y: '30px' }, "-=3")
+       tl.to(p, { duration: 4, clipPath: 'polygon(100% 0, 0 0, 0 100%, 100% 100%)', y: '30px' }, "-=2")
 
 
     </script>
